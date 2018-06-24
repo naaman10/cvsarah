@@ -1,0 +1,55 @@
+---
+---
+
+$primary-color-dark: #30CA6D;
+$stylish-color-dark: #80EBB7;
+$special-color-dark: #263238;
+$special-color: #37474F;
+$unique-color: #3F729B;
+
+body {
+  background: #948E99;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2E1437, #948E99);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2E1437, #948E99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#menu,#contentBody {
+  padding-top: 20px;
+}
+#contentBody {
+  padding-bottom: 20px;
+}
+#menu .card {
+  width: 100%;
+}
+.card-body {
+  padding-top: 20px;
+}
+.nav.flex-column {
+  margin-bottom: 10px;
+}
+.nav-item {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.nav-item.active,.nav-item:hover {
+  color: white;
+  background: linear-gradient(to right, rgb(46, 20, 55), #948E99);
+  border-radius: 4px;
+  cursor:pointer;
+}
+.m247 {
+  min-height: 130px;
+  background-color: #4A005F;
+  padding: 30px;
+}
+.rounded {
+  width: 100%;
+}
+.btn.btn-primary {
+  background-color: none!important;
+  background: linear-gradient(to right, rgb(46, 20, 55), #948E99)!important;
+}
+strong {
+  color: #2E1437!important;
+}
