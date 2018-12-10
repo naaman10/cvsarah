@@ -1,55 +1,53 @@
 ---
 ---
 
-$primary-color-dark: #30CA6D;
-$stylish-color-dark: #80EBB7;
-$special-color-dark: #263238;
-$special-color: #37474F;
-$unique-color: #3F729B;
+$primary: #FC766A;
 
-body {
-  background: #948E99;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2E1437, #948E99);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2E1437, #948E99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
-#menu,#contentBody {
-  padding-top: 20px;
+html,body,section,.container-fluid,.row,.container {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
-#contentBody {
-  padding-bottom: 20px;
+h1,h2,h3 {
+  font-family: 'Josefin Sans', sans-serif;
 }
-#menu .card {
-  width: 100%;
+h4 {
+  font-size: 20px;
 }
-.card-body {
-  padding-top: 20px;
+.container-fluid {
+  padding: 0;
 }
-.nav.flex-column {
-  margin-bottom: 10px;
+#sectionImage {
+  background-image: url('https://scontent-lhr3-1.cdninstagram.com/vp/92a82f2fd86f5e738d442307fed1dee2/5CA3CA58/t51.2885-15/e35/38540347_497393084019699_148985814133506048_n.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 50px;
 }
-.nav-item {
-  padding: 10px;
-  margin-bottom: 5px;
+#profile,#experience {
+  height: 50%;
 }
-.nav-item.active,.nav-item:hover {
+#profile {
+  background-color: $primary;
   color: white;
-  background: linear-gradient(to right, rgb(46, 20, 55), #948E99);
-  border-radius: 4px;
-  cursor:pointer;
-}
-.m247 {
-  min-height: 130px;
-  background-color: #4A005F;
-  padding: 30px;
-}
-.rounded {
-  width: 100%;
 }
 .btn.btn-primary {
-  background-color: none!important;
-  background: linear-gradient(to right, rgb(46, 20, 55), #948E99)!important;
+  border: 3px solid $primary;
+  border-radius: 1px;
+  background-color: white;
+  color: $primary;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-strong {
-  color: #2E1437!important;
+.btn.btn-primary:hover,.btn.btn-primary:focus,.btn.btn-primary:focus-within,.btn.btn-primary:active,.btn.btn-primary:active:focus {
+  background-color: $primary;
+  border: $primary;
+  color: white;
+  outline: none;
+  -webkit-outline: none;
+}
+.square:nth-of-type(2n) {
+  background-color: $primary;
+  color: white;
 }

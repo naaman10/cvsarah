@@ -1,0 +1,17 @@
+
+  <section id="experience">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        {% for post in site.categories.experience %}
+        <div class="col-4 square">
+          <div class="jobExperience"
+          <h3>{{post.company}}</h3>
+          <h4>{{post.jobRole}}</h4>
+          <p>{{post.details}}</p>
+          <small>{{post.from}} to {{post.to}}</small>
+        </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>

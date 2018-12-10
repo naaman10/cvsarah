@@ -10,9 +10,10 @@ collections:
     output: true
 defaults:
 email: naamanh10@gmail.com
-description: Enterprise Account Manager
+description: Resume
+jobTitle: Enterprise Account Manager
+location: Manchester, United Kingdom
 baseurl:
 url:
 markdown: kramdown
 plugins:
-  - jekyll-admin
